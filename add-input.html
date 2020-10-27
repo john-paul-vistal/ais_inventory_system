@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Try</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../ais_inventory_system/src/css/ndx.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row vertical-align mt-3">
+            <div class="col-sm-7" style="margin-top: 3%;padding-bottom: 10%;">
+                <legend>Enter Item</legend>
+                <input type="text" spaceholder="Enter Item" name="input">
+                <button class="btn btn-default" name="">Add</button>
+                <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">Item</th>
+                    <th scope="col">Qty</th>
+                    <th scope="col">Tax</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+              <button class="btn btn-default">Clear</button>
+            </div>
+            <div class="col-sm-5 ml-5 bg-danger" style="margin-top: 3%;padding-bottom: 15%;">
+                <div class="card mx-auto d-block " style="width: 50rem; height: 30rem;">
+                    <div class="card-block">
+                        <h3 class="card-title">Summary</h3>
+                        <div class="col-sm-5  mt-4" id="subtotal">
+                            <div class="card-body mx-auto mb-2 text-center">
+                                <div class="card-text">
+                                    <h4>Subtotal </h4>
+                                    <h4>Tax</h4>
+                                    <h3>Total</h3>
+                                    <!-- pede ra ilisan dre a wala mn ghud ko kabalo unsa nga tag gamiton, sorry -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5" id="zero">
+                            <div class="card-body card-outline-danger mx-auto mb-2 text-center">
+                                <div class="card-text">
+                                    <h4>0,00 P</h4>
+                                    <h4>0,00 P</h4>
+                                    <h3>0,00 P</h3>
+                                    <!-- dre sad -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-10">
+                            <div class="card-body card-outline-success mx-auto mb-2 mt-5 text-center">
+                                <button id = "payment">Payment</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-5" style="margin-top: 0;"> 
+                            <div class="card-body card-outline-danger mx-auto mb-2 text-center">
+                                <div class="card-text">
+                                    <button  id="printbasket">Print Basket</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="card-body card-outline-danger mx-auto mb-2 text-center">
+                                <div class="card-text">
+                                    <button  id="reprint">Reprint</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5"  >
+                            <div>
+                                <div class="card-text">
+                                    <button id="open-cashier" name="">Open Cashier</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="card-body card-outline-danger mx-auto mb-2 text-center">
+                                <div class="card-text">
+                                    <button id="cancel-order">Cancel Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

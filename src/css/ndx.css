@@ -1,0 +1,85 @@
+*{
+    color: black;
+    font-family: arial,Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#subtotal{
+    background-color: gray;
+    border-radius: 2px;
+}
+#zero{
+    background-color: gray;
+    font-size: 40px;
+    border-radius: 2px;
+}
+#payment{
+    background-color: #00e64d;
+    width: 100%;
+    padding-top: 15%;
+    font-size: 25px;
+    border: none;
+    color: white;
+    padding: 20px 140px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    margin-left: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
+#printbasket{
+    background-color: white;
+    width: 100%;
+    color: black;
+    border: 2px solid black;
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#reprint{
+    background-color: white;
+    width: 100%;
+    color: black;
+    border: 2px solid black;
+    padding: 20px 35px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+#open-cashier{
+    background-color:  #cccc00;
+    width: 100%;
+    padding-top: 5%;
+    border: none;
+    color: black;
+    padding: 20px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+#cancel-order{
+    background-color: #b30047;
+    width: 100%;
+    padding-top: 10%;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 24px;
+    cursor: pointer;
+}
